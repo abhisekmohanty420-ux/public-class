@@ -18,6 +18,20 @@
             padding: 20px;
             background-color: orange;
          } 
+             #grandparent1 {
+             padding: 50px;
+             background-color:lightblue;
+            }  
+
+         #parent2 {
+            padding: 40px;
+             background-color: lightgreen;
+             }
+
+         #child3 {
+            padding: 20px;
+            background-color: orange;
+         } 
     </style>
 </head>
 
@@ -34,6 +48,18 @@
 
         </div>
     </div>
+     <div id="grandparent1">
+        Grandparent
+
+        <div id="parent2">
+            Parent
+
+            <button id="child3">
+                Click Me
+            </button>
+
+        </div>
+    </div>
 
 
     <script>
@@ -41,6 +67,9 @@
         let grandparent = document.getElementById("grandparent");
         let parent = document.getElementById("parent");
         let child = document.getElementById("child");
+        let grandparent1 = document.getElementById("grandparent1");
+        let parent2 = document.getElementById("parent2");
+        let child3 = document.getElementById("child3")
         grandparent.addEventListener("click", function () {
             console.log("Grandparent - Capturing")
         }, true);
@@ -50,13 +79,13 @@
         child.addEventListener("click", function () {
             console.log("Child")
         }, true);
-        grandparent.addEventListener("click", function () {
+        grandparent1.addEventListener("click", function () {
             console.log("Grandparent - Bubbling")
         });
-        parent.addEventListener("click", function () {
+        parent2.addEventListener("click", function () {
             console.log("Parent - Bubbling")
         });
-        child.addEventListener("click", function () {
+        child3.addEventListener("click", function () {
             console.log("Child - Bubbling")
         });
 
