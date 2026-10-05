@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Delegation</title>
+</head>
+<body>
+<h1>Event Deligation Example</h1>
+    <div id="parent">
+        <button class="btn">Button 1</button>
+        <button class="btn">Button 2</button>
+        <button class="btn">Button 3</button>
+    </div>
+
+    <script>
+        const parent = document.getElementById("parent");
+
+        parent.addEventListener("click", function(event) {
+
+            if (event.target.classList.contains("btn")) {
+                console.log("Clicked:", event.target.textContent);
+            }
+
+        });
+    </script>
+
+</body>
+</html>
