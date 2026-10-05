@@ -27,6 +27,27 @@
         for(let i=0;i<5;i++){
             console.log("Bluddy Sweet")
         }
+        const student = {
+    name: "Abhishek",
+    age: 20,
+    course: "CSE",
+    skills: ["Java", "Python", "JavaScript"],
+
+    greet: function () {
+        console.log("Hello, I am " + this.name);
+    }
+};
+
+console.log(student.name);
+console.log(student.age);
+console.log(student.skills);
+
+student.greet();
+
+student.age = 21;
+student.city = "Bhubaneswar";
+
+console.log(student);
     </script>
 
 </body>
