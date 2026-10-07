@@ -17,6 +17,10 @@ function hello(){
      console.log('Bay come again',data);    
 }  
 }
+function add(a,b){
+   return a+b;
+}
+console.llog(add(3,10));
 to=hello()
 to(123)
 console.log(message);
