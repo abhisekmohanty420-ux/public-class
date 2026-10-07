@@ -13,6 +13,7 @@ function hello(){
     greet()
 
  return  function greet(data){
+   greet()
      console.log('Hello ',message);
      console.log('Bay come again',data);    
 }  
