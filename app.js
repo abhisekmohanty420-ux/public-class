@@ -7,6 +7,10 @@ function hello(){
 
     }
     console.log('hello 1',message);
+    function greet(){
+      console.log("Hello Greeting you");
+    }
+    greet()
 
  return  function greet(data){
      console.log('Hello ',message);
