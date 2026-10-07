@@ -22,3 +22,18 @@ debounceSearch('hard')
 debounceSearch('hard')
 debounceSearch('hard_')
 debounceSearch('hard_js')
+function debns(fn,delay){
+    let timeId;
+    return function(...args){
+        clearTimeout(timeId);
+        timeId=setTimeout(()=>{
+            fn(...args)
+        },delay)
+    }
+}
+const start=(query)=>{
+console.log("abhisek branch",query)
+}
+func=debns(start,1000);
+func("new")
+func("hello new branch")
