@@ -81,7 +81,6 @@ const studentObject = {
 studentObject.greet();
 console.log(studentObject.course);
 studentObject.marks = 78;
-<<<<<<< HEAD
 console.log(studentObject.marks);
 studentObject.marks = 88;
 console.log(studentObject.marks);
