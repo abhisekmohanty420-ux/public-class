@@ -81,6 +81,7 @@ const studentObject = {
 studentObject.greet();
 console.log(studentObject.course);
 studentObject.marks = 78;
+<<<<<<< HEAD
 console.log(studentObject.marks);
 studentObject.marks = 88;
 console.log(studentObject.marks);
@@ -101,8 +102,6 @@ console.log(studentObject.marks);
 studentObject.marks = 90;
 console.log(studentObject.marks);
 studentObject.marks = 94;
-console.log(studentObject.marks);
-studentObject.marks = 94;
-console.log(studentObject.marks);
-studentObject.marks = 94;
+=======
+>>>>>>> 2e02861 (Class concept)
 console.log(studentObject.marks);
