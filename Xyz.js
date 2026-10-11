@@ -38,3 +38,14 @@ const add = (a, b) => {
 };
 
 console.log(add(10, 20));
+const checkEvenOdd = (num) => {
+    if (num % 2 === 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+};
+
+console.log(checkEvenOdd(10));
+console.log(checkEvenOdd(7));
+console.log(checkEvenOdd(6));
