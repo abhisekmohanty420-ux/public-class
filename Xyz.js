@@ -23,3 +23,8 @@ throttledHello();
 throttledHello();
 
 setTimeout(throttledHello, 2100);
+const greet = () => {
+    console.log("Hello World!");
+};
+
+greet();
