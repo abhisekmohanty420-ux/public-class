@@ -98,3 +98,7 @@ studentObject.marks = 99;
 console.log(studentObject.marks);
 studentObject.marks = 91;
 console.log(studentObject.marks);
+studentObject.marks = 90;
+console.log(studentObject.marks);
+studentObject.marks = 94;
+console.log(studentObject.marks);
