@@ -50,3 +50,4 @@ console.log(checkEvenOdd(10));
 console.log(checkEvenOdd(7));
 console.log(checkEvenOdd(6));
 console.log(checkEvenOdd(6));
+console.log(checkEvenOdd(6));
