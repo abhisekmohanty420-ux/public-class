@@ -21,7 +21,11 @@ function hello(){
 function add(a,b){
    return a+b;
 }
-console.llog(add(3,10));
+console.log(add(3,10));
 to=hello()
 to(123)
 console.log(message);
+const mul=(a,b)=>{
+   return a*b;
+}
+console.log(mul(10,10))
